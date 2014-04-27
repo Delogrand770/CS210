@@ -1,0 +1,93 @@
+OUT_BOTTOM, OUT_LEFT, OUT_RIGHT, OUT_TOP
+height, width, x, y
+
+Methods inherited from class java.awt.geom.Rectangle2D
+add, add, add, contains, contains, getPathIterator, getPathIterator, hashCode, intersect, intersects, intersectsLine, intersectsLine, outcode, setFrame, setRect, union
+
+Methods inherited from class java.awt.geom.RectangularShape
+clone, contains, contains, getCenterX, getCenterY, getFrame, getMaxX, getMaxY, getMinX, getMinY, intersects, setFrame, setFrame, setFrameFromCenter, setFrameFromCenter, setFrameFromDiagonal, setFrameFromDiagonal
+
+Methods inherited from class java.lang.Object
+finalize, getClass, notify, notifyAll, wait, wait, wait
+
+Methods inherited from interface java.awt.Shape
+contains, contains, contains, contains, getPathIterator, getPathIterator, intersects, intersects
+
+void 	add(int newx, int newy)
+Adds a point, specified by the integer arguments newx,newy to the bounds of this Rectangle.
+void 	add(Point pt)
+Adds the specified Point to the bounds of this Rectangle.
+void 	add(Rectangle r)
+Adds a Rectangle to this Rectangle.
+boolean 	contains(int x, int y)
+Checks whether or not this Rectangle contains the point at the specified location (x,y).
+boolean 	contains(int X, int Y, int W, int H)
+Checks whether this Rectangle entirely contains the Rectangle at the specified location (X,Y) with the specified dimensions (W,H).
+boolean 	contains(Point p)
+Checks whether or not this Rectangle contains the specified Point.
+boolean 	contains(Rectangle r)
+Checks whether or not this Rectangle entirely contains the specified Rectangle.
+Rectangle2D 	createIntersection(Rectangle2D r)
+Returns a new Rectangle2D object representing the intersection of this Rectangle2D with the specified Rectangle2D.
+Rectangle2D 	createUnion(Rectangle2D r)
+Returns a new Rectangle2D object representing the union of this Rectangle2D with the specified Rectangle2D.
+boolean 	equals(Object obj)
+Checks whether two rectangles are equal.
+Rectangle 	getBounds()
+Gets the bounding Rectangle of this Rectangle.
+Rectangle2D 	getBounds2D()
+Returns a high precision and more accurate bounding box of the Shape than the getBounds method.
+double 	getHeight()
+Returns the height of the bounding Rectangle in double precision.
+Point 	getLocation()
+Returns the location of this Rectangle.
+Dimension 	getSize()
+Gets the size of this Rectangle, represented by the returned Dimension.
+double 	getWidth()
+Returns the width of the bounding Rectangle in double precision.
+double 	getX()
+Returns the X coordinate of the bounding Rectangle in double precision.
+double 	getY()
+Returns the Y coordinate of the bounding Rectangle in double precision.
+void 	grow(int h, int v)
+Resizes the Rectangle both horizontally and vertically.
+boolean 	inside(int X, int Y)
+Deprecated. 
+As of JDK version 1.1, replaced by contains(int, int).
+Rectangle 	intersection(Rectangle r)
+Computes the intersection of this Rectangle with the specified Rectangle.
+boolean 	intersects(Rectangle r)
+Determines whether or not this Rectangle and the specified Rectangle intersect.
+boolean 	isEmpty()
+Determines whether the RectangularShape is empty.
+void 	move(int x, int y)
+Deprecated. 
+As of JDK version 1.1, replaced by setLocation(int, int).
+int 	outcode(double x, double y)
+Determines where the specified coordinates lie with respect to this Rectangle2D.
+void 	reshape(int x, int y, int width, int height)
+Deprecated. 
+As of JDK version 1.1, replaced by setBounds(int, int, int, int).
+void 	resize(int width, int height)
+Deprecated. 
+As of JDK version 1.1, replaced by setSize(int, int).
+void 	setBounds(int x, int y, int width, int height)
+Sets the bounding Rectangle of this Rectangle to the specified x, y, width, and height.
+void 	setBounds(Rectangle r)
+Sets the bounding Rectangle of this Rectangle to match the specified Rectangle.
+void 	setLocation(int x, int y)
+Moves this Rectangle to the specified location.
+void 	setLocation(Point p)
+Moves this Rectangle to the specified location.
+void 	setRect(double x, double y, double width, double height)
+Sets the bounds of this Rectangle to the integer bounds which encompass the specified x, y, width, and height.
+void 	setSize(Dimension d)
+Sets the size of this Rectangle to match the specified Dimension.
+void 	setSize(int width, int height)
+Sets the size of this Rectangle to the specified width and height.
+String 	toString()
+Returns a String representing this Rectangle and its values.
+void 	translate(int dx, int dy)
+Translates this Rectangle the indicated distance, to the right along the X coordinate axis, and downward along the Y coordinate axis.
+Rectangle 	union(Rectangle r)
+Computes the union of this Rectangle with the specified Rectangle.

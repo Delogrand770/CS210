@@ -1,0 +1,9 @@
+1. 5
+2. mouseClicked(MouseEvent e){}
+3. 31
+4. 10
+5. You can not create a new Shape() beacuse it is a interface. This means the interface does not have constructors or even code for that matter, only mempty methods.
+6. Yes you can as long as the objects in the shape implement the shape interface.
+7. 10
+8. 25
+9. Because the interface forces these classes to implement all the methods in the corresponding interface.

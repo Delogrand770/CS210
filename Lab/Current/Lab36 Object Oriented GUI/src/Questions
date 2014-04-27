@@ -1,0 +1,6 @@
+1. You can create multiple instances of the GUI.
+2. The GUI components display and appear functional but will not execute any actions.
+3. An inner class is a class that is nested inside another class.
+4. An inner class has access to all variables the outer class has.
+5. The inner class can call any methods within itself or of the outer class.
+6. mouseListener, actionListener, keyListener, mouseMotionListener
